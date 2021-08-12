@@ -104,4 +104,55 @@ img {
     height: 250px;
 }
 
+/* Mobile Design */
+
+@media (max-width: 1024px) {
+    .user-input {
+        max-width: 65%;
+    }
+
+    .dish-data {
+        width: 94%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-sm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container-sm {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 85%;
+    }
+
+    .dish-data {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .container-sm {
+        width: 95%;
+        justify-content:center;
+    }
+
+    .dish-data {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container-sm {
+        width: 100%;
+        justify-content:center;
+    }
+}
 
